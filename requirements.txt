@@ -1,0 +1,6 @@
+pandas
+bs4
+selenium
+selenium-wire
+requests
+webdriver-manager
