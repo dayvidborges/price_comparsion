@@ -5,11 +5,10 @@ Project to compare some list of products from paraguay marktplace with some webs
 # INSTRUCTIONS
 
 1. Install the requirements
-2. Run the script
 
 
 
-# 1. Install the requirements
+### 1. Install the requirements
 
 ```
 pip install -r requirements.txt

@@ -4,3 +4,4 @@ selenium
 selenium-wire
 requests
 webdriver-manager
+lxml
