@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup 
+from datetime import datetime
 import re
 
 pd.set_option('display.max_rows', None) 
@@ -106,4 +107,4 @@ for index, data in enumerate(products_data):
 
 df = pd.DataFrame(products_data)
 df.drop(columns=["items", "items_count", "link", "status_code", "has_prime"], inplace=True)
-df.to_csv("products_data1.csv", index=False)
+df.to_csv(f"products_data1_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.csv", index=False)
